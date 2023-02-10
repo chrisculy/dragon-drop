@@ -37,9 +37,9 @@
     "eject": "react-scripts eject"
   },
   "files": [
-    "constants.ts",
-    "Draggable.tsx",
-    "DropZone.tsx"
+    "src/constants.ts",
+    "src/Draggable.tsx",
+    "src/DropZone.tsx"
   ],
   "eslintConfig": {
     "extends": [

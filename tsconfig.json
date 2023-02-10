@@ -22,6 +22,8 @@
     "outDir": "dist/"
   },
   "include": [
-    "src"
-, "src/Draggable.tsx", "src/constants.ts"  ]
+    "src/constants.ts",
+    "src/Draggable.tsx",
+    "src/DragZone.tsx"
+  ]
 }
