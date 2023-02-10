@@ -1,8 +1,7 @@
 import React, { useRef, useState } from "react";
 import { Box, Container, Typography } from "@mui/material";
 import { Album } from "@mui/icons-material/";
-import { Draggable } from "./Draggable";
-import { DropZone } from "./DropZone";
+import { Draggable, DropZone } from "chrisculy-dragon-drop";
 
 interface Data {
   aNumber: number;

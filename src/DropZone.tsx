@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import { dragonDropNodeIdType } from "../src/constants";
+import { dragonDropNodeIdType } from "./constants";
 
 export interface DropZoneProps<T> extends React.HTMLProps<HTMLDivElement> {
   onDragEntered: () => void;

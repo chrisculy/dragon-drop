@@ -1,6 +1,8 @@
 import React, { useRef, useState } from "react";
 import _ from "lodash";
-import { dragonDropNodeIdPrefix, dragonDropNodeIdType } from "./constants";
+import { dragonDropNodeIdType } from "./constants";
+
+export const dragonDropNodeIdPrefix = "__dragon_drop_node_";
 
 export interface DraggableProps<T> extends React.HTMLProps<HTMLDivElement> {
   dragData: T;
